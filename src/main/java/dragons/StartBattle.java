@@ -30,39 +30,42 @@ public class StartBattle {
 
 
         URL test = new URL("http://www.dragonsofmugloar.com/api/game");
-        Game a0 = new ObjectMapper().readValue(test, Game.class);
-        System.out.println(a0.getGameId());
-        System.out.println(a0.getKnight().getName());
-        Weather.getWeather();
 
-        URL url = new URL("http://www.dragonsofmugloar.com/api/game/"+a0.getGameId()+"/solution");
-        HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
-        httpCon.setDoOutput(true);
-        httpCon.setRequestMethod("PUT");
-        httpCon.setRequestProperty("Content-Type", "application/json");
-        httpCon.setRequestProperty("Accept", "application/json");
-        OutputStreamWriter out = new OutputStreamWriter(
-                httpCon.getOutputStream());
-        ObjectMapper outmap = new ObjectMapper();
-        //out.write(outmap.readValue(new BufferedReader(new InputStreamReader())));
+        for(int i = 0; i!=50;i++) {
+            Game a0 = new ObjectMapper().readValue(test, Game.class);
+            System.out.println(a0.getGameId());
+            System.out.println(a0.getKnight().getName());
+            Knight knight = a0.getKnight();
+            System.out.println("Attack: " + knight.getAttack());
+            System.out.println("Armor: " + knight.getArmor());
+            System.out.println("Agiltiy: " + knight.getAgility());
+            System.out.println("Endurance: " + knight.getEndurance());
 
-        BattleSolver bs = new BattleSolver();
-        Dragon drag = bs.createDragon(a0);
-        String outmess = outmap.writeValueAsString(drag);
-        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
-        String outjson = ow.writeValueAsString(drag);
-        System.out.println(outjson);
-        out.write("{\n" +
-                "    \"dragon\": \n" +outjson +
-                "    \n" +
-                "}");
+            URL url = new URL("http://www.dragonsofmugloar.com/api/game/" + a0.getGameId() + "/solution");
+            HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
+            httpCon.setDoOutput(true);
+            httpCon.setRequestMethod("PUT");
+            httpCon.setRequestProperty("Content-Type", "application/json");
+            httpCon.setRequestProperty("Accept", "application/json");
+            OutputStreamWriter out = new OutputStreamWriter(
+                    httpCon.getOutputStream());
 
-        out.flush();
-        out.close();
-        BufferedReader br = new BufferedReader((new InputStreamReader(httpCon.getInputStream())));
-        System.out.println(br.readLine());
+            BattleSolver bs = new BattleSolver();
+            Dragon drag = bs.createDragon(a0);
+            ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+            String outjson = ow.writeValueAsString(drag);
+            System.out.println(outjson);
+            out.write("{\n" +
+                        "    \"dragon\": \n" + outjson +
+                        "    \n" +
+                        "}");
 
-
+            out.flush();
+            out.close();
+            BufferedReader br = new BufferedReader((new InputStreamReader(httpCon.getInputStream())));
+            System.out.println(br.readLine());
+            System.out.println("-------------------------------------------------------------------------------" + "\n");
+        }
     }
 
 }

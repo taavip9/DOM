@@ -13,14 +13,12 @@ import java.net.URL;
 
 public class Weather {
 
-    static void getWeather() throws ParserConfigurationException, IOException, SAXException{
+    static String getWeather() throws ParserConfigurationException, IOException, SAXException{
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         Document doc = db.parse(new URL("http://www.dragonsofmugloar.com/weather/api/report/"
                 +Game.getGameId()).openStream());
         NodeList rrr = doc.getElementsByTagName("code");
-        for (int i = 0; i!=rrr.getLength();i++){
-            System.out.println(rrr.item(i).getTextContent());
-        }
+        return rrr.item(0).getTextContent();
     }
 }
