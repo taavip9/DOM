@@ -2,46 +2,45 @@ package dragons;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import dragons.objects.Dragon;
+import dragons.objects.Game;
+import dragons.objects.Knight;
 import org.xml.sax.SAXException;
-import sun.misc.IOUtils;
-import sun.nio.ch.IOUtil;
-
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
+import java.util.Scanner;
 
 
 public class StartBattle {
 
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
-        /*String aaas = "{\"gameId\":7004253,\"knight\":{\"name\":\"Sir. Johnny Ruiz of Alberta\",\"attack\":0,\"armor\":6,\"agility\":7,\"endurance\":7}}";
-        Game a = new ObjectMapper().readValue(aaas, Game.class);
-        System.out.println(a.getGameId());
-        System.out.println(a.getKnight().getName());*/
+        //Clear the detailed_result.txt file
+        PrintWriter pw = new PrintWriter("detailed_result.txt");
+        pw.close();
+        PrintWriter fileOut = new PrintWriter(new FileOutputStream("detailed_result.txt", true));
 
 
 
-        URL test = new URL("http://www.dragonsofmugloar.com/api/game");
 
-        for(int i = 0; i!=50;i++) {
-            Game a0 = new ObjectMapper().readValue(test, Game.class);
-            System.out.println(a0.getGameId());
-            System.out.println(a0.getKnight().getName());
-            Knight knight = a0.getKnight();
-            System.out.println("Attack: " + knight.getAttack());
-            System.out.println("Armor: " + knight.getArmor());
-            System.out.println("Agiltiy: " + knight.getAgility());
-            System.out.println("Endurance: " + knight.getEndurance());
+        //User determines how many battle he/she wants to do
+        System.out.println("How many battles do you wish to do?");
+        Scanner input = new Scanner(System.in);
+        int parseScanner = input.nextInt();
+        System.out.println("Please wait...");
 
-            URL url = new URL("http://www.dragonsofmugloar.com/api/game/" + a0.getGameId() + "/solution");
+        URL apiURL = new URL("http://www.dragonsofmugloar.com/api/game");
+        int victories = 0;
+        int defeats = 0;
+
+        //Start battle loop
+        for(int i = 0; i!=parseScanner; i++) {
+
+            //Create URL and Http connection
+            Game game = new ObjectMapper().readValue(apiURL, Game.class);
+            URL url = new URL("http://www.dragonsofmugloar.com/api/game/" + game.getGameId() + "/solution");
             HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
             httpCon.setDoOutput(true);
             httpCon.setRequestMethod("PUT");
@@ -50,22 +49,57 @@ public class StartBattle {
             OutputStreamWriter out = new OutputStreamWriter(
                     httpCon.getOutputStream());
 
+            //Create a dragon to respond to the /api/game input
             BattleSolver bs = new BattleSolver();
-            Dragon drag = bs.createDragon(a0);
+            Dragon drag = bs.createDragon(game);
+
+            //Convert the dragon to JSON syntax using ObjectMapper
             ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
             String outjson = ow.writeValueAsString(drag);
-            System.out.println(outjson);
+
+            //Send a PUT HTTP request with the dragon in it in JSON format
             out.write("{\n" +
                         "    \"dragon\": \n" + outjson +
                         "    \n" +
                         "}");
-
-            out.flush();
             out.close();
+
+            //Get battle result response from the PUT request
             BufferedReader br = new BufferedReader((new InputStreamReader(httpCon.getInputStream())));
-            System.out.println(br.readLine());
-            System.out.println("-------------------------------------------------------------------------------" + "\n");
+            String battleResult = br.readLine();
+
+            //Calculate victories
+            if(battleResult.contains("Victory")){
+                victories++;
+            } else{
+                defeats++;
+            }
+
+            //Log data to detailed_results.txt file
+            Knight knight = game.getKnight();
+            fileOut.println("Game ID: "+game.getGameId());
+            fileOut.println("Knight's name: "+knight.getName());
+            fileOut.println("Attack: " + knight.getAttack());
+            fileOut.println("Armor: " + knight.getArmor());
+            fileOut.println("Agility: " + knight.getAgility());
+            fileOut.println("Endurance: " + knight.getEndurance()+"\n");
+            fileOut.println("Dragon stats:");
+            if(drag!=null) {
+                fileOut.println("Scale thickness: " + drag.getScaleThickness());
+                fileOut.println("Claw sharpness: " + drag.getClawSharpness());
+                fileOut.println("Wing strength: " + drag.getWingStrength());
+                fileOut.println("Fire Breath: " + drag.getFireBreath());
+            } else {
+                fileOut.println("No dragon because of the storm");
+            }
+            fileOut.println("Battle result: "+battleResult);
+            fileOut.println("----------------------------------------------------------------------------\n");
+
         }
+        fileOut.close();
+        System.out.println("Victories: "+victories);
+        System.out.println("Defeats: "+defeats);
+        System.out.println("A more detailed result of the fights can be seen in the detailed_result.txt file");
     }
 
 }

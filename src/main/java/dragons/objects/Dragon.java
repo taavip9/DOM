@@ -1,4 +1,4 @@
-package dragons;
+package dragons.objects;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,5 +1,8 @@
 package dragons;
 
+import dragons.objects.Dragon;
+import dragons.objects.Game;
+import dragons.objects.Knight;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,12 +18,14 @@ public class BattleSolver {
         int arm = knight.getArmor();
         int end = knight.getEndurance();
 
+        //Create a dragon a give knight's stats to the dragon
         Dragon dragon = new Dragon();
         dragon.setScaleThickness(att);
         dragon.setClawSharpness(arm);
         dragon.setWingStrength(ag);
         dragon.setFireBreath(end);
 
+        //Determine the highest knight's attribute and counter it
         if ( att >= ag && att >= arm && att >= end){
             dragon.setScaleThickness(att+2);
             if(arm == 0){
@@ -71,6 +76,7 @@ public class BattleSolver {
             }
         }
 
+        //Weather modifications
         String weather = Weather.getWeather();
 
         if(weather.equals("SRO")){
