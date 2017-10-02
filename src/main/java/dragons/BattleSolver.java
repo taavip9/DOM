@@ -18,7 +18,7 @@ public class BattleSolver {
         int arm = knight.getArmor();
         int end = knight.getEndurance();
 
-        //Create a dragon a give knight's stats to the dragon
+        //Create a dragon and give knight's stats to the dragon
         Dragon dragon = new Dragon();
         dragon.setScaleThickness(att);
         dragon.setClawSharpness(arm);

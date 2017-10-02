@@ -1,83 +1,233 @@
-Game ID: 2539539
-Knight's name: Sir. Jackson Moore of Newfoundland and Labrador
-Attack: 4
-Armor: 5
-Agility: 3
-Endurance: 8
-
-Dragon stats:
-Scale thickness: 3
-Claw sharpness: 4
-Wing strength: 3
-Fire Breath: 10
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 2973589
-Knight's name: Sir. Paul Matthews of New Brunswick
-Attack: 3
-Armor: 7
-Agility: 7
-Endurance: 3
-
-Dragon stats:
-Scale thickness: 2
-Claw sharpness: 9
-Wing strength: 6
-Fire Breath: 3
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 3713293
-Knight's name: Sir. Herbert Bradley of Nova Scotia
-Attack: 3
-Armor: 7
-Agility: 7
-Endurance: 3
-
-Dragon stats:
-Scale thickness: 2
-Claw sharpness: 9
-Wing strength: 6
-Fire Breath: 3
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 3795345
-Knight's name: Sir. Joshua Little of Quebec
-Attack: 8
-Armor: 4
-Agility: 1
-Endurance: 7
-
-Dragon stats:
-Scale thickness: 10
-Claw sharpness: 3
-Wing strength: 0
-Fire Breath: 7
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 3995916
-Knight's name: Sir. Don Pittman of Alberta
-Attack: 1
-Armor: 5
+Game ID: 4209057
+Knight's name: Sir. Jorge Perez of New Brunswick
+Attack: 6
+Armor: 0
 Agility: 6
 Endurance: 8
 
 Dragon stats:
-Scale thickness: 0
-Claw sharpness: 4
-Wing strength: 6
+Scale thickness: 5
+Claw sharpness: 0
+Wing strength: 5
 Fire Breath: 10
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 5004184
-Knight's name: Sir. Mario Carr of Quebec
-Attack: 5
-Armor: 0
+Game ID: 7893459
+Knight's name: Sir. Darrell Kim of Nunavut
+Attack: 3
+Armor: 1
+Agility: 8
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 0
+Wing strength: 10
+Fire Breath: 8
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8872906
+Knight's name: Sir. Adrian Carlson of Saskatchewan
+Attack: 2
+Armor: 2
+Agility: 8
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 1
+Wing strength: 10
+Fire Breath: 8
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 2318198
+Knight's name: Sir. Erik Rodgers of Manitoba
+Attack: 1
+Armor: 5
 Agility: 7
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 0
+Claw sharpness: 4
+Wing strength: 9
+Fire Breath: 7
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8033528
+Knight's name: Sir. Clayton Drake of Saskatchewan
+Attack: 8
+Armor: 4
+Agility: 6
+Endurance: 2
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 3
+Wing strength: 5
+Fire Breath: 2
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 5575630
+Knight's name: Sir. Albert Barnett of British Columbia
+Attack: 8
+Armor: 3
+Agility: 6
+Endurance: 3
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 2
+Wing strength: 5
+Fire Breath: 3
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 5919418
+Knight's name: Sir. Jeffery Alvarez of Saskatchewan
+Attack: 1
+Armor: 4
+Agility: 7
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 0
+Claw sharpness: 3
+Wing strength: 7
+Fire Breath: 10
+Battle result: {"status":"Victory","message":"Knight was useless in the fog."}
+----------------------------------------------------------------------------
+
+Game ID: 9708201
+Knight's name: Sir. Kenneth Wise of British Columbia
+Attack: 8
+Armor: 1
+Agility: 3
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 0
+Wing strength: 2
+Fire Breath: 8
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 1597555
+Knight's name: Sir. Wayne Nguyen of Northwest Territories
+Attack: 3
+Armor: 5
+Agility: 8
+Endurance: 4
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 4
+Wing strength: 10
+Fire Breath: 4
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4373642
+Knight's name: Sir. Dean Abbott of Quebec
+Attack: 3
+Armor: 5
+Agility: 7
+Endurance: 5
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 4
+Wing strength: 9
+Fire Breath: 5
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 1688622
+Knight's name: Sir. Herbert Wong of Nunavut
+Attack: 3
+Armor: 3
+Agility: 8
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 2
+Wing strength: 10
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 7852315
+Knight's name: Sir. Raymond Cortez of Ontario
+Attack: 5
+Armor: 6
+Agility: 3
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 8
+Wing strength: 2
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 5733579
+Knight's name: Sir. Chester Butler of Nunavut
+Attack: 5
+Armor: 6
+Agility: 6
+Endurance: 3
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 8
+Wing strength: 5
+Fire Breath: 3
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4521438
+Knight's name: Sir. Jay Cox of Nova Scotia
+Attack: 8
+Armor: 2
+Agility: 7
+Endurance: 3
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 1
+Wing strength: 6
+Fire Breath: 3
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 9755633
+Knight's name: Sir. Jimmy Sherman of Alberta
+Attack: 2
+Armor: 6
+Agility: 8
+Endurance: 4
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 5
+Wing strength: 10
+Fire Breath: 4
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 1776711
+Knight's name: Sir. Aaron Hines of Quebec
+Attack: 5
+Armor: 1
+Agility: 6
 Endurance: 8
 
 Dragon stats:
@@ -88,8 +238,38 @@ Fire Breath: 10
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 3535434
-Knight's name: Sir. Barry Weaver of Nova Scotia
+Game ID: 5016522
+Knight's name: Sir. Jared Welch of Prince Edward Island
+Attack: 2
+Armor: 8
+Agility: 6
+Endurance: 4
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 10
+Wing strength: 5
+Fire Breath: 4
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8558750
+Knight's name: Sir. Dustin Colon of Yukon
+Attack: 5
+Armor: 5
+Agility: 8
+Endurance: 2
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 4
+Wing strength: 10
+Fire Breath: 2
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 6175860
+Knight's name: Sir. Gerald Robinson of Nova Scotia
 Attack: 5
 Armor: 8
 Agility: 2
@@ -103,41 +283,245 @@ Fire Breath: 5
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 4821426
-Knight's name: Sir. Edward Wade of Yukon
-Attack: 4
-Armor: 3
-Agility: 6
-Endurance: 7
+Game ID: 1160644
+Knight's name: Sir. Jeff Chapman of Newfoundland and Labrador
+Attack: 7
+Armor: 8
+Agility: 3
+Endurance: 2
 
 Dragon stats:
-Scale thickness: 3
-Claw sharpness: 2
-Wing strength: 6
-Fire Breath: 9
+Scale thickness: 6
+Claw sharpness: 10
+Wing strength: 2
+Fire Breath: 2
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 592442
-Knight's name: Sir. Leon Medina of Yukon
+Game ID: 8889012
+Knight's name: Sir. Larry Oliver of Ontario
 Attack: 1
 Armor: 4
 Agility: 8
 Endurance: 7
 
 Dragon stats:
-Scale thickness: 0
-Claw sharpness: 3
+No dragon because of the storm
+Battle result: {"status":"Victory","message":"Knight died in storm, dragon survived in the pen."}
+----------------------------------------------------------------------------
+
+Game ID: 8753110
+Knight's name: Sir. Roger Ball of Newfoundland and Labrador
+Attack: 6
+Armor: 2
+Agility: 5
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 5
+Claw sharpness: 1
+Wing strength: 5
+Fire Breath: 9
+Battle result: {"status":"Victory","message":"Knight was useless in the fog."}
+----------------------------------------------------------------------------
+
+Game ID: 109378
+Knight's name: Sir. Wesley Davis of Saskatchewan
+Attack: 6
+Armor: 3
+Agility: 6
+Endurance: 5
+
+Dragon stats:
+Scale thickness: 8
+Claw sharpness: 2
+Wing strength: 5
+Fire Breath: 5
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8728873
+Knight's name: Sir. Kenneth Wheeler of Yukon
+Attack: 2
+Armor: 3
+Agility: 8
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 2
 Wing strength: 10
 Fire Breath: 7
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 6053694
-Knight's name: Sir. Edwin Sparks of Prince Edward Island
-Attack: 5
+Game ID: 9881748
+Knight's name: Sir. Luis Rodgers of Saskatchewan
+Attack: 4
 Armor: 0
 Agility: 8
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 3
+Claw sharpness: 0
+Wing strength: 10
+Fire Breath: 7
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4072727
+Knight's name: Sir. Edwin Diaz of Alberta
+Attack: 2
+Armor: 2
+Agility: 8
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 10
+Wing strength: 0
+Fire Breath: 0
+Battle result: {"status":"Victory","message":"Dragon scratched up the umbrella boat and knight drowned."}
+----------------------------------------------------------------------------
+
+Game ID: 9360870
+Knight's name: Sir. Peter Blair of Alberta
+Attack: 4
+Armor: 1
+Agility: 7
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 10
+Claw sharpness: 10
+Wing strength: 0
+Fire Breath: 0
+Battle result: {"status":"Victory","message":"Dragon scratched up the umbrella boat and knight drowned."}
+----------------------------------------------------------------------------
+
+Game ID: 4146777
+Knight's name: Sir. Andrew Buchanan of Saskatchewan
+Attack: 2
+Armor: 8
+Agility: 2
+Endurance: 8
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 10
+Wing strength: 1
+Fire Breath: 8
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4616531
+Knight's name: Sir. Clayton Kennedy of Quebec
+Attack: 3
+Armor: 8
+Agility: 8
+Endurance: 1
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 10
+Wing strength: 7
+Fire Breath: 1
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 2992276
+Knight's name: Sir. Justin Ryan of Northwest Territories
+Attack: 0
+Armor: 6
+Agility: 8
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 5
+Claw sharpness: 5
+Wing strength: 5
+Fire Breath: 5
+Battle result: {"status":"Victory","message":"Dragon was zen enough to defeat the knight."}
+----------------------------------------------------------------------------
+
+Game ID: 586729
+Knight's name: Sir. Terry Webb of Ontario
+Attack: 5
+Armor: 7
+Agility: 4
+Endurance: 4
+
+Dragon stats:
+No dragon because of the storm
+Battle result: {"status":"Victory","message":"Knight died in storm, dragon survived in the pen."}
+----------------------------------------------------------------------------
+
+Game ID: 8027149
+Knight's name: Sir. Mitchell Hogan of Alberta
+Attack: 1
+Armor: 7
+Agility: 6
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 0
+Claw sharpness: 9
+Wing strength: 5
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4749548
+Knight's name: Sir. Larry Saunders of Yukon
+Attack: 3
+Armor: 8
+Agility: 4
+Endurance: 5
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 10
+Wing strength: 3
+Fire Breath: 5
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 4520722
+Knight's name: Sir. Erik Bennett of Quebec
+Attack: 6
+Armor: 7
+Agility: 6
+Endurance: 1
+
+Dragon stats:
+Scale thickness: 5
+Claw sharpness: 9
+Wing strength: 5
+Fire Breath: 1
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 9340696
+Knight's name: Sir. Steven Hansen of Ontario
+Attack: 5
+Armor: 1
+Agility: 8
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 0
+Wing strength: 10
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8300805
+Knight's name: Sir. Ryan Reeves of Yukon
+Attack: 3
+Armor: 8
+Agility: 2
 Endurance: 7
 
 Dragon stats:
@@ -148,113 +532,128 @@ Fire Breath: 5
 Battle result: {"status":"Victory","message":"Dragon was zen enough to defeat the knight."}
 ----------------------------------------------------------------------------
 
-Game ID: 9174004
-Knight's name: Sir. Dylan Norman of New Brunswick
+Game ID: 2285411
+Knight's name: Sir. Marcus Bennett of Ontario
+Attack: 3
+Armor: 7
+Agility: 6
+Endurance: 4
+
+Dragon stats:
+Scale thickness: 2
+Claw sharpness: 9
+Wing strength: 5
+Fire Breath: 4
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 2126395
+Knight's name: Sir. Willie Cross of Nunavut
 Attack: 1
-Armor: 6
+Armor: 8
+Agility: 4
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 0
+Claw sharpness: 10
+Wing strength: 3
+Fire Breath: 7
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8747632
+Knight's name: Sir. Jesus Harris of British Columbia
+Attack: 3
+Armor: 4
 Agility: 5
 Endurance: 8
 
 Dragon stats:
-Scale thickness: 0
-Claw sharpness: 5
+Scale thickness: 2
+Claw sharpness: 3
 Wing strength: 5
 Fire Breath: 10
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 6620173
-Knight's name: Sir. Andre Sparks of Northwest Territories
-Attack: 3
-Armor: 3
-Agility: 6
-Endurance: 8
+Game ID: 1419255
+Knight's name: Sir. Wesley Marsh of Manitoba
+Attack: 6
+Armor: 6
+Agility: 4
+Endurance: 4
 
 Dragon stats:
-Scale thickness: 2
-Claw sharpness: 2
-Wing strength: 6
-Fire Breath: 10
+Scale thickness: 8
+Claw sharpness: 5
+Wing strength: 3
+Fire Breath: 4
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 85176
-Knight's name: Sir. Miguel Ward of Alberta
-Attack: 3
-Armor: 8
+Game ID: 8737470
+Knight's name: Sir. Larry Armstrong of Nunavut
+Attack: 4
+Armor: 1
+Agility: 8
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 3
+Claw sharpness: 0
+Wing strength: 10
+Fire Breath: 7
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 6706465
+Knight's name: Sir. Richard Goodwin of Prince Edward Island
+Attack: 6
+Armor: 5
 Agility: 3
 Endurance: 6
 
 Dragon stats:
-Scale thickness: 2
-Claw sharpness: 10
+Scale thickness: 8
+Claw sharpness: 4
 Wing strength: 2
 Fire Breath: 6
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 8857548
-Knight's name: Sir. Luis Murray of Ontario
-Attack: 6
-Armor: 2
-Agility: 4
-Endurance: 8
-
-Dragon stats:
-Scale thickness: 5
-Claw sharpness: 1
-Wing strength: 4
-Fire Breath: 10
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 1298399
-Knight's name: Sir. Cole Meyer of Alberta
-Attack: 7
-Armor: 4
-Agility: 2
-Endurance: 7
-
-Dragon stats:
-Scale thickness: 9
-Claw sharpness: 3
-Wing strength: 1
-Fire Breath: 7
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 3025238
-Knight's name: Sir. Jorge Lowe of Nova Scotia
-Attack: 5
-Armor: 6
+Game ID: 5225523
+Knight's name: Sir. Nathan Underwood of Nova Scotia
+Attack: 4
+Armor: 1
 Agility: 7
-Endurance: 2
-
-Dragon stats:
-Scale thickness: 4
-Claw sharpness: 5
-Wing strength: 9
-Fire Breath: 2
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 1674783
-Knight's name: Sir. Tom Powers of Quebec
-Attack: 6
-Armor: 6
-Agility: 0
 Endurance: 8
 
 Dragon stats:
-Scale thickness: 5
-Claw sharpness: 5
-Wing strength: 0
+Scale thickness: 3
+Claw sharpness: 0
+Wing strength: 7
 Fire Breath: 10
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 5987392
-Knight's name: Sir. Tommy Harvey of Nunavut
+Game ID: 5119822
+Knight's name: Sir. Russell Wheeler of Manitoba
+Attack: 4
+Armor: 2
+Agility: 8
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 3
+Claw sharpness: 1
+Wing strength: 10
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 5701880
+Knight's name: Sir. Roger Clayton of British Columbia
 Attack: 1
 Armor: 3
 Agility: 8
@@ -268,8 +667,53 @@ Fire Breath: 8
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 1681969
-Knight's name: Sir. Jacob Sims of Newfoundland and Labrador
+Game ID: 3829072
+Knight's name: Sir. Henry Rodriquez of Quebec
+Attack: 2
+Armor: 8
+Agility: 3
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 1
+Claw sharpness: 10
+Wing strength: 2
+Fire Breath: 7
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 9841721
+Knight's name: Sir. Shane Jennings of Alberta
+Attack: 5
+Armor: 7
+Agility: 2
+Endurance: 6
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 9
+Wing strength: 1
+Fire Breath: 6
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 2594529
+Knight's name: Sir. Michael Matthews of Ontario
+Attack: 5
+Armor: 3
+Agility: 5
+Endurance: 7
+
+Dragon stats:
+Scale thickness: 4
+Claw sharpness: 2
+Wing strength: 5
+Fire Breath: 9
+Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
+----------------------------------------------------------------------------
+
+Game ID: 8184879
+Knight's name: Sir. Bradley Allen of Ontario
 Attack: 6
 Armor: 4
 Agility: 7
@@ -283,78 +727,18 @@ Fire Breath: 3
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
-Game ID: 3218370
-Knight's name: Sir. Benjamin Guzman of Northwest Territories
+Game ID: 4718414
+Knight's name: Sir. Eddie Aguilar of New Brunswick
 Attack: 8
-Armor: 4
-Agility: 1
+Armor: 1
+Agility: 4
 Endurance: 7
 
 Dragon stats:
 Scale thickness: 10
-Claw sharpness: 3
-Wing strength: 0
+Claw sharpness: 0
+Wing strength: 3
 Fire Breath: 7
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 6926706
-Knight's name: Sir. Brett Williamson of Nunavut
-Attack: 3
-Armor: 7
-Agility: 3
-Endurance: 7
-
-Dragon stats:
-Scale thickness: 2
-Claw sharpness: 9
-Wing strength: 2
-Fire Breath: 7
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 775764
-Knight's name: Sir. Jordan Berry of Ontario
-Attack: 5
-Armor: 4
-Agility: 7
-Endurance: 4
-
-Dragon stats:
-Scale thickness: 4
-Claw sharpness: 3
-Wing strength: 9
-Fire Breath: 4
-Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
-----------------------------------------------------------------------------
-
-Game ID: 57236
-Knight's name: Sir. Julian Henry of Nova Scotia
-Attack: 8
-Armor: 2
-Agility: 2
-Endurance: 8
-
-Dragon stats:
-Scale thickness: 5
-Claw sharpness: 5
-Wing strength: 5
-Fire Breath: 5
-Battle result: {"status":"Victory","message":"Dragon was zen enough to defeat the knight."}
-----------------------------------------------------------------------------
-
-Game ID: 176181
-Knight's name: Sir. Alfred Adams of New Brunswick
-Attack: 1
-Armor: 5
-Agility: 6
-Endurance: 8
-
-Dragon stats:
-Scale thickness: 0
-Claw sharpness: 4
-Wing strength: 6
-Fire Breath: 10
 Battle result: {"status":"Victory","message":"Dragon was successful in a glorious battle"}
 ----------------------------------------------------------------------------
 
